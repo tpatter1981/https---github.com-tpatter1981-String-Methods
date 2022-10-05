@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Methods</title>
+</head>
+<body>
+    <div class="container">
+        <h1>String Methods</h1>
+    </div>
+<div><b>The charAt()-</b><p>method returns the character at a specified index (position) in a string.
+
+    The index of the first character is 0, the second 1, ...
+    
+   <br><b>ex(let text = "HELLO WORLD";
+    let letter = text.charAt(text.length-1);
+    
+    document.getElementById("demo").innerHTML = letter;) 
+</b></br>
+</p></div>
+
+<div><b>charCodeAt()-</b><p>returns the Unicode of the character at a specified position in a string.
+
+    <br><b>ex()</b></br>
+</p></div>
+
+<div><b>concat-</b><p>The concat() method joins two or more strings.
+
+    The concat() method does not change the existing strings.
+    
+    The concat() method returns a new string.
+
+<br><b>ex.let text1 = "Hello";
+let text2 = "world!";
+let text3 = "Have a nice day!";
+let result = text1.concat(" ", text2, " ", text3);
+
+document.getElementById("demo").innerHTML = result;
+ console log("Hello world!Have a nice day!")
+</b></br></p></div>
+
+<div><b>includes-</b><p>The includes() method returns true if a string contains a specified string.
+
+    Otherwise it returns false.
+    
+    The includes() method is case sensitive.<br><b>ex.const array1 = [1, 2, 3];
+
+        console.log(array1.includes(2));
+        // expected output: true
+        
+        const pets = ['cat', 'dog', 'bat'];
+        
+        console.log(pets.includes('cat'));
+        // expected output: true
+        
+        console.log(pets.includes('at'));
+        // expected output: false</b></p></div>
+
+<div><b>indexOf-</b>
+<p>The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.</p><b>ex(const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+
+    console.log(beasts.indexOf('bison'));
+    // expected output: 1
+    
+    // start from index 2
+    console.log(beasts.indexOf('bison', 2));
+    // expected output: 4
+    
+    console.log(beasts.indexOf('giraffe'));
+    // expected output: -1)</b></div>
+
+<div><br><b>Match</b></br>
+<p>The string.match() is an inbuilt function in JavaScript used to search a string for a match against any regular expression. If the match is found, then this will return the match as an array.</p><b>ex( function matchString() {
+    var string = "Welcome to geeks for geeks";
+    var result = string.match(/eek/g);
+    document.write("Output : " + result);
+} matchString();S)</b></div>
+
+repeat
+
+replace
+
+search
+
+slice
+
+split
+
+substr
+
+toLowerCase
+
+toUpperCase
+
+
+trim
+
+</body>
+</html>
